@@ -21,23 +21,30 @@ class ViewController: UIViewController {
             userIsInTheMiddleOfTypingANumber = true;
             display.text = digit;
         }
-        
+    
+    }
+    var thread:Thread?;
+    
+    
+    func testFunc(p2:String) -> Int {
+        return 1;
     }
     
     var optionStack = Array <Double>();
    
     @IBAction func enter() {
-        userIsInTheMiddleOfTypingANumber = false;
-        optionStack.append(displayValue)
+//        userIsInTheMiddleOfTypingANumber = false;
+//        optionStack.append(displayValue)
+//        testFunc(p2: "dfs");
     }
     
 
     @IBAction func operate(sender: UIButton) {
         
-        _ = sender.currentTitle!;
-        if userIsInTheMiddleOfTypingANumber {
-            enter();
-        }
+//        _ = sender.currentTitle!;
+//        if userIsInTheMiddleOfTypingANumber {
+//            enter();
+//        }
 //        switch operation{
 //            case "x":
 //              if optionStack.count>=2{
@@ -63,7 +70,7 @@ class ViewController: UIViewController {
     }
     var displayValue:Double{
         get{
-            return NSNumberFormatter().numberFromString(display.text!)!.doubleValue;
+            return NumberFormatter().number(from: display.text!)!.doubleValue;
         }
         set{
             

@@ -2,4 +2,14 @@
 
 import UIKit
 
+//:
 var str = "Hello, playground"
+//test ()
+//:
+func  test(){
+    
+}
+
+
+
+//:#

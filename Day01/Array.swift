@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+//:# Heading1
+struct IntArray {
+    func test() -> Int {
+        return 3;
+    }
+}

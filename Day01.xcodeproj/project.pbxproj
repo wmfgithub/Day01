@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C14E00171E5BE97A00141E2F /* question.png in Resources */ = {isa = PBXBuildFile; fileRef = C14E00161E5BE97A00141E2F /* question.png */; };
 		C18964F11CBF8DFC00E3DF54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18964F01CBF8DFC00E3DF54 /* AppDelegate.swift */; };
 		C18964F31CBF8DFC00E3DF54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18964F21CBF8DFC00E3DF54 /* ViewController.swift */; };
 		C18964F61CBF8DFC00E3DF54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C18964F41CBF8DFC00E3DF54 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		C18964FB1CBF8DFC00E3DF54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C18964F91CBF8DFC00E3DF54 /* LaunchScreen.storyboard */; };
 		C18965061CBF8DFC00E3DF54 /* Day01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18965051CBF8DFC00E3DF54 /* Day01Tests.swift */; };
 		C18965111CBF8DFC00E3DF54 /* Day01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18965101CBF8DFC00E3DF54 /* Day01UITests.swift */; };
+		C190AC011DB9FAFB00442FBD /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190AC001DB9FAFB00442FBD /* Array.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C14E00161E5BE97A00141E2F /* question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = question.png; path = ../../../../Desktop/question.png; sourceTree = "<group>"; };
 		C18964ED1CBF8DFC00E3DF54 /* Day01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Day01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C18964F01CBF8DFC00E3DF54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C18964F21CBF8DFC00E3DF54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,11 @@
 		C189650C1CBF8DFC00E3DF54 /* Day01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Day01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C18965101CBF8DFC00E3DF54 /* Day01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day01UITests.swift; sourceTree = "<group>"; };
 		C18965121CBF8DFC00E3DF54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C190ABFF1DB9FA3700442FBD /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		C190AC001DB9FAFB00442FBD /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		C190AC021DB9FBFA00442FBD /* Page1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Page1.playground; sourceTree = "<group>"; };
+		C190AC031DB9FC0800442FBD /* Page2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Page2.playground; sourceTree = "<group>"; };
+		C190AC041DB9FC1400442FBD /* Page3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Page3.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +105,14 @@
 		C18964EF1CBF8DFC00E3DF54 /* Day01 */ = {
 			isa = PBXGroup;
 			children = (
+				C14E00161E5BE97A00141E2F /* question.png */,
 				C18964F01CBF8DFC00E3DF54 /* AppDelegate.swift */,
 				C18964F21CBF8DFC00E3DF54 /* ViewController.swift */,
+				C190AC001DB9FAFB00442FBD /* Array.swift */,
+				C190AC041DB9FC1400442FBD /* Page3.playground */,
+				C190AC031DB9FC0800442FBD /* Page2.playground */,
+				C190AC021DB9FBFA00442FBD /* Page1.playground */,
+				C190ABFF1DB9FA3700442FBD /* MyPlayground.playground */,
 				C18964F41CBF8DFC00E3DF54 /* Main.storyboard */,
 				C18964F71CBF8DFC00E3DF54 /* Assets.xcassets */,
 				C18964F91CBF8DFC00E3DF54 /* LaunchScreen.storyboard */,
@@ -193,13 +207,18 @@
 				TargetAttributes = {
 					C18964EC1CBF8DFC00E3DF54 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = NHWQ2V3WPS;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
 					};
 					C18965001CBF8DFC00E3DF54 = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
 						TestTargetID = C18964EC1CBF8DFC00E3DF54;
 					};
 					C189650B1CBF8DFC00E3DF54 = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
 						TestTargetID = C18964EC1CBF8DFC00E3DF54;
 					};
 				};
@@ -232,6 +251,7 @@
 				C18964FB1CBF8DFC00E3DF54 /* LaunchScreen.storyboard in Resources */,
 				C18964F81CBF8DFC00E3DF54 /* Assets.xcassets in Resources */,
 				C18964F61CBF8DFC00E3DF54 /* Main.storyboard in Resources */,
+				C14E00171E5BE97A00141E2F /* question.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C190AC011DB9FAFB00442FBD /* Array.swift in Sources */,
 				C18964F31CBF8DFC00E3DF54 /* ViewController.swift in Sources */,
 				C18964F11CBF8DFC00E3DF54 /* AppDelegate.swift in Sources */,
 			);
@@ -397,10 +418,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = NHWQ2V3WPS;
 				INFOPLIST_FILE = Day01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.best.ios.test.Day01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -408,10 +433,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = NHWQ2V3WPS;
 				INFOPLIST_FILE = Day01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.best.ios.test.Day01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -423,6 +452,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.best.ios.test.Day01Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day01.app/Day01";
 			};
 			name = Debug;
@@ -435,6 +465,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.best.ios.test.Day01Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day01.app/Day01";
 			};
 			name = Release;
@@ -446,6 +477,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.best.ios.test.Day01UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Day01;
 				USES_XCTRUNNER = YES;
 			};
@@ -458,6 +490,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.best.ios.test.Day01UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Day01;
 				USES_XCTRUNNER = YES;
 			};
@@ -482,6 +515,7 @@
 				C18965171CBF8DFC00E3DF54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C18965181CBF8DFC00E3DF54 /* Build configuration list for PBXNativeTarget "Day01Tests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +524,7 @@
 				C189651A1CBF8DFC00E3DF54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C189651B1CBF8DFC00E3DF54 /* Build configuration list for PBXNativeTarget "Day01UITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +533,7 @@
 				C189651D1CBF8DFC00E3DF54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
